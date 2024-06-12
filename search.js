@@ -1,8 +1,8 @@
 const express=require("express")
 const mongoose=require("mongoose")
 const cors=require("cors")
-const course=require("./models/course")
-const {productmodel}=require("./models/course")
+const course=require("./models/shop")
+const {productmodel}=require("./models/shop")
 
 
 const app=express()
